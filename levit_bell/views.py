@@ -9,3 +9,6 @@ def politicas_privacidad(request):
 
 def politica_empresarial(request):
 	return render(request, 'politica_empresarial.html')
+
+def mas_tips(request):
+	return render(request, 'mas_tips.html')

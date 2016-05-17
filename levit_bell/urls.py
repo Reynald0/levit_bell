@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^$', inicio, name='inicio'),
     url(r'^politicas_privacidad/$', politicas_privacidad, name='politicas_privacidad'),
     url(r'^politica_empresarial/$', politica_empresarial, name='politica_empresarial'),
+    url(r'^tips/$', mas_tips, name="mas_tips"),
 ]
